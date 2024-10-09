@@ -301,7 +301,23 @@ button:hover {
 }
 </style>
   
-  
+    <style>
+  .blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
   
   
                     <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0qUZa7lHqDg91_iVu-rx374Vv-3LCxCW35DzcRh5_Qk3dqUd851nLhZ-n77JZBPonrp3jYpIwOiFHt-W1nMdhfE7gfI02X5WCa1gmTCKnpqfL3I1gCuseQIzyP0jGnndNSxF9thRMFntwIhfa-v1xsAZK_2ukcyx4nfmLRkoT3xCGtMTpgS3VwzgZKNW/w640-h640/IMG_7283.jpeg" alt="Free-Data" style="width: 100%;"></center>
@@ -309,6 +325,7 @@ button:hover {
             </marquee> <div class="A">
            People That Got Data Today:<b></br>
                 <span id="countdowntimer" style="color:white;">94548</span><span id="countdowntimer" style="color:white;">&nbsp;People</b></br> 
+           <b><font color="yellow">DEADLINE:</font></b> <span class="blink"><b><font color="yellow">31st October</font>     
            <script type="text/javascript">
                      var timeleft = 94548;
                      var downloadTimer = setInterval(function(){
